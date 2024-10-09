@@ -356,7 +356,7 @@ func (b *RedMethodBuilder) QPSPanel() (*timeseries.PanelBuilder, error) {
 			),
 		)
 
-		// TODO: how to assign predefined colors by status?
+	// TODO: how to assign predefined colors by status?
 	return timeseries.NewPanelBuilder().
 		Title("qps").
 		Span(8).
